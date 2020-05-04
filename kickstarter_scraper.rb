@@ -12,7 +12,9 @@ def create_project_hash
   # location : project.css("ul.project-meta li a").text
   # percent_funded : project.css("ul.project-meta li a").text.gsub("%","").to_i
 
-  binding.pry
+  projects = {}
+
+  
 end
 
 create_project_hash
